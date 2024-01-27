@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/pet-project/static/css/main.bb90ad8e.css",
+    "main.js": "/pet-project/static/js/main.9976f81c.js",
+    "static/media/banner2.jpg": "/pet-project/static/media/banner2.26985eac39cc0fae0b12.jpg",
+    "static/media/soldier.png": "/pet-project/static/media/soldier.45e97e9c092a67e2f63d.png",
+    "static/media/banner1.jpg": "/pet-project/static/media/banner1.4f29a74ac370b861f277.jpg",
+    "static/media/banner3.jpg": "/pet-project/static/media/banner3.b3b76d79a666eb839fc8.jpg",
+    "static/media/drone.png": "/pet-project/static/media/drone.586fef10a112a9133b45.png",
+    "static/media/product.png": "/pet-project/static/media/product.1d78cf801b5b6c8e4931.png",
+    "static/media/Backpack.png": "/pet-project/static/media/Backpack.1301557e04a105d95212.png",
+    "static/media/clothes.png": "/pet-project/static/media/clothes.d2443c23217a16c5e372.png",
+    "static/media/shoes.png": "/pet-project/static/media/shoes.c501ce5001f3505e31cb.png",
+    "static/media/gloves.png": "/pet-project/static/media/gloves.1d820d21623a162316a7.png",
+    "static/media/glasses.png": "/pet-project/static/media/glasses.ac43d75847f054acbc3e.png",
+    "static/media/slick.svg": "/pet-project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/pet-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/pet-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/pet-project/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/instagram.svg": "/pet-project/static/media/instagram.6fd9ff9e50a2e212518e93f0983618e7.svg",
+    "static/media/icon_shopping_cart_.svg": "/pet-project/static/media/icon_shopping_cart_.df33c993ea90cee3869c43e39c69b31c.svg",
+    "static/media/telegram.svg": "/pet-project/static/media/telegram.ca9bf06f79f82f835ca639eb2ff054cf.svg",
+    "index.html": "/pet-project/index.html",
+    "static/media/facebook.svg": "/pet-project/static/media/facebook.0d2923ec0e76c58b918636c6b697f357.svg",
+    "static/media/Flag_of_Ukraine 1.svg": "/pet-project/static/media/Flag_of_Ukraine 1.1abc1d7c79ae759062305756f6023ff8.svg",
+    "main.bb90ad8e.css.map": "/pet-project/static/css/main.bb90ad8e.css.map",
+    "main.9976f81c.js.map": "/pet-project/static/js/main.9976f81c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb90ad8e.css",
+    "static/js/main.9976f81c.js"
+  ]
+}
