@@ -6,7 +6,7 @@ import Telegram from "../../img/telegram.svg";
 export const Footer = () => {
   return (
     <>
-      <footer>
+      <footer id="footer">
         <div className="footer_description">
           <img className="footer_logo" src={Logo} />
           <div className="footer_text">

@@ -2,12 +2,22 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { HomePage } from "./pages/HomePage";
+import { AllProducts } from "./pages/AllProducts";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { ProductPage } from "./pages/ProductPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/pet-project",
     element: <HomePage />,
+  },
+  {
+    path: "/pet-project/all-products",
+    element: <AllProducts />,
+  },
+  {
+    path: "/pet-project/product",
+    element: <ProductPage />,
   },
 ]);
 

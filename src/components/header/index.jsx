@@ -3,16 +3,47 @@ import FlagUA from "../../img/Flag_of_Ukraine 1.svg";
 import FlagUK from "../../img/FlagUK.png";
 import shopingCart from "../../img/icon_shopping_cart_.svg";
 import "./index.css";
-export const Header = () => {
+export const Header = (props) => {
   return (
     <header>
       <div className="Header_link">
         <ul>
           <li>
-            <a href="#">Про нас</a>
+            <a href={props.a1} className="Header_link_a">
+              {props.name1}
+            </a>
           </li>
-          <li>
-            <a href="#">Каталог</a>
+          <li className="Special_list">
+            <a href={props.a2} className="Header_link_a">
+              Каталог
+            </a>
+            <ul className="dropdown5">
+              <li>
+                <a href="#" className="dropdown_a">
+                  Одяг
+                </a>
+              </li>
+              <li>
+                <a href="#" className="dropdown_a">
+                  Тактичні Рукавиці
+                </a>
+              </li>
+              <li>
+                <a href="#" className="dropdown_a">
+                  Тактичні Окуляри
+                </a>
+              </li>
+              <li>
+                <a href="#" className="dropdown_a">
+                  Взуття
+                </a>
+              </li>
+              <li>
+                <a href="#" className="dropdown_a">
+                  Рюкзаки
+                </a>
+              </li>
+            </ul>
           </li>
           <li>
             <div>
@@ -22,10 +53,14 @@ export const Header = () => {
             </div>
           </li>
           <li>
-            <a href="#">Контакти</a>
+            <a href={props.a3} className="Header_link_a">
+              {props.name3}
+            </a>
           </li>
           <li>
-            <a href="#">Тех.Підтримка</a>
+            <a href={props.a4} className="Header_link_a">
+              {props.name4}
+            </a>
           </li>
         </ul>
       </div>

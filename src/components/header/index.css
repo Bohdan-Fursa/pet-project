@@ -20,17 +20,17 @@ ul {
   gap: 20px;
   list-style: none;
 }
-.Header_link a {
-  text-decoration: none;
+.Header_link_a {
+  text-decoration: none !important;
   position: relative;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  color: #fff !important;
+  font-family: Montserrat !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
 }
-.Header_link a::before {
+.Header_link_a::before {
   content: "";
   bottom: 0;
   left: 0;
@@ -40,7 +40,7 @@ ul {
   background-color: #fff;
   transition: 0.2s;
 }
-a:hover::before {
+.Header_link_a:hover::before {
   width: 100%;
 }
 .logo {
@@ -97,4 +97,33 @@ a:hover::before {
 }
 ul {
   margin-bottom: 0 !important;
+}
+ul {
+  padding-left: 0 !important;
+}
+.dropdown5 {
+  display: none;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  width: 210px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.Special_list {
+  position: relative;
+}
+.dropdown_a {
+  padding-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+.dropdown_a:hover {
+  text-decoration: underline;
+}
+.Special_list:hover .dropdown5 {
+  display: flex;
 }

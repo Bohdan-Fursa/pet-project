@@ -13,7 +13,15 @@ import Backpack from "../img/Backpack.png";
 export const HomePage = () => {
   return (
     <>
-      <Header />
+      <Header
+        name1="Про нас"
+        a1="#about_us"
+        a2="#catalog"
+        name3="Контакти"
+        a3="#contacts"
+        name4="Тех.Підтримка"
+        a4="#footer"
+      />
       <div className="main_section">
         <img src={Soldier} className="soldier" />
         <div className="main_section_text">
@@ -22,12 +30,12 @@ export const HomePage = () => {
             Наша компанія спеціалізується на виробництві й забезпеченні зброї
             для ЗСУ
           </span>
-          <a href="#" className="main_section_button">
+          <a href="/pet-project/all-products" className="main_section_button">
             Замовити
           </a>
         </div>
       </div>
-      <div className="about_us">
+      <div className="about_us" id="about_us">
         <img src={Drone} className="Drone" />
         <div className="about_us_text">
           <h2>ПРО НАС</h2>
@@ -39,12 +47,12 @@ export const HomePage = () => {
             <br /> Якщо у вас виникли якісь запитання зателефонуйте і зв’яжіться
             з нами!
           </span>
-          <a href="#" className="about_us_button">
+          <a href="/pet-project/all-products" className="about_us_button">
             Замовити
           </a>
         </div>
       </div>
-      <div className="catalog">
+      <div className="catalog" id="catalog">
         <h3>КАТАЛОГ</h3>
         <Carousel1 />
         <h4>РЕКОМЕНДОВАНІ ДЛЯ ВАС</h4>
@@ -94,7 +102,7 @@ export const HomePage = () => {
           <Carousel2 />
         </div>
       </div>
-      <div className="contacts">
+      <div className="contacts" id="contacts">
         <div className="contacts_form">
           <h6>Контакти</h6>
           <input type="text" placeholder="Введіть ваше ім'я"></input>

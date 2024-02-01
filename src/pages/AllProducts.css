@@ -1,0 +1,20 @@
+.Products {
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+}
+.Products_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 202px;
+}
+h9 {
+  padding-top: 50px;
+  padding-left: 230px;
+  color: #595c47 !important;
+  font-family: Montserrat !important;
+  font-size: 40px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+}
