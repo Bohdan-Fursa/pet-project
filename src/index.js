@@ -8,15 +8,15 @@ import { ProductPage } from "./pages/ProductPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/pet-project",
     element: <HomePage />,
   },
   {
-    path: "/all-products",
+    path: "/pet-project/all-products",
     element: <AllProducts />,
   },
   {
-    path: "/product",
+    path: "/pet-project/product",
     element: <ProductPage />,
   },
 ]);

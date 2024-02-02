@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import { Header } from "../components/header";
 import { Footer } from "../components/footer";
 import "./HomePage.css";
@@ -32,9 +30,9 @@ export const HomePage = () => {
             Наша компанія спеціалізується на виробництві й забезпеченні зброї
             для ЗСУ
           </span>
-          <Link to="/all-products" className="main_section_button">
-            <a>Замовити</a>
-          </Link>
+          <a href="/pet-project/all-products" className="main_section_button">
+            Замовити
+          </a>
         </div>
       </div>
       <div className="about_us" id="about_us">
