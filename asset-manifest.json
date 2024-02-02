@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pet-project/static/css/main.01c922a2.css",
-    "main.js": "/pet-project/static/js/main.9928f1b9.js",
+    "main.js": "/pet-project/static/js/main.462c109c.js",
     "static/media/banner2.jpg": "/pet-project/static/media/banner2.26985eac39cc0fae0b12.jpg",
     "static/media/soldier.png": "/pet-project/static/media/soldier.45e97e9c092a67e2f63d.png",
     "static/media/banner1.jpg": "/pet-project/static/media/banner1.4f29a74ac370b861f277.jpg",
@@ -24,10 +24,10 @@
     "static/media/facebook.svg": "/pet-project/static/media/facebook.0d2923ec0e76c58b918636c6b697f357.svg",
     "static/media/Flag_of_Ukraine 1.svg": "/pet-project/static/media/Flag_of_Ukraine 1.1abc1d7c79ae759062305756f6023ff8.svg",
     "main.01c922a2.css.map": "/pet-project/static/css/main.01c922a2.css.map",
-    "main.9928f1b9.js.map": "/pet-project/static/js/main.9928f1b9.js.map"
+    "main.462c109c.js.map": "/pet-project/static/js/main.462c109c.js.map"
   },
   "entrypoints": [
     "static/css/main.01c922a2.css",
-    "static/js/main.9928f1b9.js"
+    "static/js/main.462c109c.js"
   ]
 }
