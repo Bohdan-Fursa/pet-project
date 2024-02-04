@@ -1,6 +1,7 @@
 .Products {
   display: grid;
   grid-template-columns: repeat(4, 350px);
+  grid-gap: 30px;
 }
 .Products_wrapper {
   display: flex;
@@ -17,4 +18,10 @@ h9 {
   font-style: normal !important;
   font-weight: 600 !important;
   line-height: normal !important;
+}
+.product span {
+  text-align: center;
+}
+.products_too {
+  padding-top: 80px;
 }

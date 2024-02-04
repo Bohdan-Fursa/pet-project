@@ -1,0 +1,83 @@
+.wrapper_product {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+}
+.wrapper_product p {
+  font-family: Montserrat !important;
+  color: #535353;
+  font-size: 20px;
+}
+h10 {
+  font-family: Montserrat !important;
+  font-size: 36px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+}
+.big_product {
+  display: flex;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  border-bottom: solid 2px #585b47;
+}
+.big_product img {
+  width: 700px;
+}
+.big_product_text {
+  display: inline-flex;
+  padding-left: 80px;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+.price {
+  font-family: Montserrat !important;
+  font-size: 32px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+  color: black !important;
+}
+.military {
+  color: black !important;
+}
+.now {
+  color: #3c8a20 !important;
+  font-weight: 500;
+}
+.buy_button {
+  background-color: #585b47;
+  font-family: Montserrat !important;
+  color: white;
+  font-weight: 500 !important;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px 10px 30px;
+  margin-left: 30px;
+  text-align: center;
+  transition: 0.2s;
+}
+.buy_button:hover {
+  color: gray;
+}
+h11 {
+  color: #585b47;
+  font-family: Montserrat !important;
+  font-size: 32px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  border-bottom: 5px solid #585b47;
+}
+.big_product_description {
+  padding-left: 150px;
+  padding-bottom: 200px;
+}
+.big_product_description p {
+  padding-top: 30px;
+  font-family: Montserrat !important;
+  color: #535353;
+  font-size: 17px !important;
+}

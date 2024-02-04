@@ -10,10 +10,15 @@
 }
 .product {
   display: flex;
+  gap: 10px;
   align-items: center;
   flex-direction: column;
 }
 .product a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   text-decoration: none;
 }
 .product span {
@@ -44,4 +49,7 @@
   font-style: normal !important;
   font-weight: 600 !important;
   line-height: normal !important;
+}
+.mini_product {
+  width: 200px;
 }

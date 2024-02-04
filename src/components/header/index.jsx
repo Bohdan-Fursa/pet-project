@@ -2,6 +2,7 @@ import logo from "../../img/logo.png";
 import FlagUA from "../../img/Flag_of_Ukraine 1.svg";
 import FlagUK from "../../img/FlagUK.png";
 import shopingCart from "../../img/icon_shopping_cart_.svg";
+import { Link } from "react-router-dom";
 import "./index.css";
 export const Header = (props) => {
   return (
@@ -9,14 +10,16 @@ export const Header = (props) => {
       <div className="Header_link">
         <ul>
           <li>
-            <a href={props.a1} className="Header_link_a">
-              {props.name1}
-            </a>
+            <Link to={props.a1} className="Header_link_a">
+              <a>{props.name1}</a>
+            </Link>
           </li>
           <li className="Special_list">
-            <a href={props.a2} className="Header_link_a">
-              Каталог
-            </a>
+            <Link to={props.a2} className="Header_link_a">
+              <a href={props.a2} className="Header_link_a">
+                Каталог
+              </a>
+            </Link>
             <ul className="dropdown5">
               <li>
                 <a href="#" className="dropdown_a">

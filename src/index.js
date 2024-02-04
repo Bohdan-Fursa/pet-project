@@ -5,18 +5,17 @@ import { HomePage } from "./pages/HomePage";
 import { AllProducts } from "./pages/AllProducts";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ProductPage } from "./pages/ProductPage";
-
 const router = createBrowserRouter([
   {
-    path: "/pet-project",
+    path: "/",
     element: <HomePage />,
   },
   {
-    path: "/pet-project/all-products",
+    path: "/all-products",
     element: <AllProducts />,
   },
   {
-    path: "/pet-project/product",
+    path: "/product/:id",
     element: <ProductPage />,
   },
 ]);

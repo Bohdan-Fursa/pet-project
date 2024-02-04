@@ -1,5 +1,8 @@
 import { Header } from "../components/header";
 import { Footer } from "../components/footer";
+import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./HomePage.css";
 import Soldier from "../img/soldier.png";
 import Drone from "../img/drone.png";
@@ -10,13 +13,17 @@ import Gloves from "../img/gloves.png";
 import Glasses from "../img/glasses.png";
 import Shoes from "../img/shoes.png";
 import Backpack from "../img/Backpack.png";
+import { useEffect } from "react";
 export const HomePage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  });
   return (
     <>
       <Header
         name1="Про нас"
         a1="#about_us"
-        a2="#catalog"
+        a2="/all-products"
         name3="Контакти"
         a3="#contacts"
         name4="Тех.Підтримка"
@@ -30,14 +37,14 @@ export const HomePage = () => {
             Наша компанія спеціалізується на виробництві й забезпеченні зброї
             для ЗСУ
           </span>
-          <a href="/pet-project/all-products" className="main_section_button">
-            Замовити
-          </a>
+          <Link to="/all-products" className="main_section_button">
+            <a>Замовити</a>
+          </Link>
         </div>
       </div>
       <div className="about_us" id="about_us">
-        <img src={Drone} className="Drone" />
-        <div className="about_us_text">
+        <img src={Drone} className="Drone fade-right" />
+        <div className="about_us_text " data-aos="fade-left">
           <h2>ПРО НАС</h2>
           <span>
             Ми на ринку 10 років і вже отримали десятки тисяч позитивних
@@ -47,12 +54,12 @@ export const HomePage = () => {
             <br /> Якщо у вас виникли якісь запитання зателефонуйте і зв’яжіться
             з нами!
           </span>
-          <a href="/pet-project/all-products" className="about_us_button">
-            Замовити
-          </a>
+          <Link to="/all-products" className="about_us_button">
+            <a>Замовити</a>
+          </Link>
         </div>
       </div>
-      <div className="catalog" id="catalog">
+      <div className="catalog fade-right" id="catalog">
         <h3>КАТАЛОГ</h3>
         <Carousel1 />
         <h4>РЕКОМЕНДОВАНІ ДЛЯ ВАС</h4>
