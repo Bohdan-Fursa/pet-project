@@ -1,18 +1,29 @@
 {
   "files": {
-    "main.css": "/pet-project/static/css/main.01c922a2.css",
-    "main.js": "/pet-project/static/js/main.462c109c.js",
+    "main.css": "/pet-project/static/css/main.4ac776ec.css",
+    "main.js": "/pet-project/static/js/main.0f470ea1.js",
     "static/media/banner2.jpg": "/pet-project/static/media/banner2.26985eac39cc0fae0b12.jpg",
     "static/media/soldier.png": "/pet-project/static/media/soldier.45e97e9c092a67e2f63d.png",
     "static/media/banner1.jpg": "/pet-project/static/media/banner1.4f29a74ac370b861f277.jpg",
     "static/media/banner3.jpg": "/pet-project/static/media/banner3.b3b76d79a666eb839fc8.jpg",
+    "static/media/product2.avif": "/pet-project/static/media/product2.9e1955173e1c476d8608.avif",
     "static/media/drone.png": "/pet-project/static/media/drone.586fef10a112a9133b45.png",
     "static/media/product.png": "/pet-project/static/media/product.1d78cf801b5b6c8e4931.png",
     "static/media/Backpack.png": "/pet-project/static/media/Backpack.1301557e04a105d95212.png",
     "static/media/clothes.png": "/pet-project/static/media/clothes.d2443c23217a16c5e372.png",
     "static/media/shoes.png": "/pet-project/static/media/shoes.c501ce5001f3505e31cb.png",
     "static/media/gloves.png": "/pet-project/static/media/gloves.1d820d21623a162316a7.png",
+    "static/media/product4.avif": "/pet-project/static/media/product4.658a75929e3a753b961d.avif",
+    "static/media/product10.avif": "/pet-project/static/media/product10.942ff40600e11ad7f7c2.avif",
+    "static/media/product5.avif": "/pet-project/static/media/product5.db57778f1866fbfe5133.avif",
     "static/media/glasses.png": "/pet-project/static/media/glasses.ac43d75847f054acbc3e.png",
+    "static/media/product6.avif": "/pet-project/static/media/product6.1848d1278619ee95f8a2.avif",
+    "static/media/product3.avif": "/pet-project/static/media/product3.a338382d973f867fd2a1.avif",
+    "static/media/product9.avif": "/pet-project/static/media/product9.05216ebd48c939e66d73.avif",
+    "static/media/product7.avif": "/pet-project/static/media/product7.8f666b221b2f1a4472d1.avif",
+    "static/media/product8.avif": "/pet-project/static/media/product8.5321d24dca1e1ae38149.avif",
+    "static/media/product12.avif": "/pet-project/static/media/product12.6a84f38b74b5db9b81f8.avif",
+    "static/media/product11.avif": "/pet-project/static/media/product11.80202c20a51e2e1f042f.avif",
     "static/media/slick.svg": "/pet-project/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/pet-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/pet-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -23,11 +34,11 @@
     "index.html": "/pet-project/index.html",
     "static/media/facebook.svg": "/pet-project/static/media/facebook.0d2923ec0e76c58b918636c6b697f357.svg",
     "static/media/Flag_of_Ukraine 1.svg": "/pet-project/static/media/Flag_of_Ukraine 1.1abc1d7c79ae759062305756f6023ff8.svg",
-    "main.01c922a2.css.map": "/pet-project/static/css/main.01c922a2.css.map",
-    "main.462c109c.js.map": "/pet-project/static/js/main.462c109c.js.map"
+    "main.4ac776ec.css.map": "/pet-project/static/css/main.4ac776ec.css.map",
+    "main.0f470ea1.js.map": "/pet-project/static/js/main.0f470ea1.js.map"
   },
   "entrypoints": [
-    "static/css/main.01c922a2.css",
-    "static/js/main.462c109c.js"
+    "static/css/main.4ac776ec.css",
+    "static/js/main.0f470ea1.js"
   ]
 }
