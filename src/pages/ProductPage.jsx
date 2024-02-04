@@ -1,6 +1,9 @@
 import { useParams } from "react-router";
 import { Header } from "../components/header";
 import { Footer } from "../components/footer";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 import "../pages/ProductPage.css";
 import Product1 from "../img/product.png";
 import Product2 from "../img/product2.avif";
@@ -15,6 +18,9 @@ import Product10 from "../img/product10.avif";
 import Product11 from "../img/product11.avif";
 import Product12 from "../img/product12.avif";
 export const ProductPage = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, delay: "300" });
+  });
   const { id: productId } = useParams();
   const productData = [
     {
@@ -119,8 +125,12 @@ export const ProductPage = () => {
       {foundProduct ? (
         <div className="wrapper_product">
           <div className="big_product">
-            <img src={foundProduct.image} alt={foundProduct.name} />
-            <div className="big_product_text">
+            <img
+              src={foundProduct.image}
+              alt={foundProduct.name}
+              data-aos="fade-right"
+            />
+            <div className="big_product_text" data-aos="fade-left">
               <h10>{foundProduct.name}</h10>
               <p>
                 Виробник: <span className="military">Military UA</span>
@@ -138,7 +148,7 @@ export const ProductPage = () => {
       ) : (
         <div>Товар не знайдено</div>
       )}
-      <div className="big_product_description">
+      <div className="big_product_description" data-aos="fade-up-right">
         <h11>ОПИС</h11>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint a<br />

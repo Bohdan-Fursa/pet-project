@@ -2,6 +2,7 @@ import { Header } from "../components/header";
 import { Product } from "../components/product";
 import { Footer } from "../components/footer";
 import AOS from "aos";
+import { useEffect } from "react";
 import "aos/dist/aos.css";
 import "../pages/AllProducts.css";
 import Product1 from "../img/product.png";
@@ -17,8 +18,12 @@ import Product10 from "../img/product10.avif";
 import Product11 from "../img/product11.avif";
 import Product12 from "../img/product12.avif";
 import Carousel1 from "../components/Carousel1";
+import Carousel2 from "../components/Carousel2";
 
 export const AllProducts = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, delay: "300" });
+  });
   return (
     <>
       <Header
@@ -30,8 +35,10 @@ export const AllProducts = () => {
         name4="Акції"
         a4="#"
       />
-      <Carousel1 />
-      <div className="products_too">
+      <div data-aos="zoom-in-down">
+        <Carousel1 />
+      </div>
+      <div className="products_too" data-aos="fade-right">
         <h9>Всі товари</h9>
         <div className="Products_wrapper">
           <div className="Products">
@@ -95,6 +102,10 @@ export const AllProducts = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="bestsellers" data-aos="fade-left">
+        <h5>БЕСТСЕЛЕРИ</h5>
+        <Carousel2 />
       </div>
       <Footer />
     </>

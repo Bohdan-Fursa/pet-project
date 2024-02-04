@@ -16,7 +16,7 @@ import Backpack from "../img/Backpack.png";
 import { useEffect } from "react";
 export const HomePage = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    AOS.init({ duration: 1000, delay: "300" });
   });
   return (
     <>
@@ -30,8 +30,8 @@ export const HomePage = () => {
         a4="#footer"
       />
       <div className="main_section">
-        <img src={Soldier} className="soldier" />
-        <div className="main_section_text">
+        <img src={Soldier} className="soldier" data-aos="fade-right" />
+        <div className="main_section_text" data-aos="fade-left">
           <h1>MILITARY UA</h1>
           <span>
             Наша компанія спеціалізується на виробництві й забезпеченні зброї
@@ -43,7 +43,11 @@ export const HomePage = () => {
         </div>
       </div>
       <div className="about_us" id="about_us">
-        <img src={Drone} className="Drone fade-right" />
+        <img
+          src={Drone}
+          className="Drone fade-right"
+          data-aos="fade-down-right"
+        />
         <div className="about_us_text " data-aos="fade-left">
           <h2>ПРО НАС</h2>
           <span>
@@ -59,11 +63,13 @@ export const HomePage = () => {
           </Link>
         </div>
       </div>
-      <div className="catalog fade-right" id="catalog">
-        <h3>КАТАЛОГ</h3>
-        <Carousel1 />
-        <h4>РЕКОМЕНДОВАНІ ДЛЯ ВАС</h4>
-        <div className="recommendations">
+      <div className="catalog" id="catalog">
+        <div data-aos="fade-up">
+          <h3>КАТАЛОГ</h3>
+          <Carousel1 />
+        </div>
+        <h4 data-aos="fade-right">РЕКОМЕНДОВАНІ ДЛЯ ВАС</h4>
+        <div className="recommendations" data-aos="fade-right">
           <div className="choice">
             <div>
               <a href="#" className="clothes">
@@ -104,13 +110,13 @@ export const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className="bestsellers">
+        <div className="bestsellers" data-aos="fade-left">
           <h5>БЕСТСЕЛЕРИ</h5>
           <Carousel2 />
         </div>
       </div>
       <div className="contacts" id="contacts">
-        <div className="contacts_form">
+        <div className="contacts_form" data-aos="zoom-in">
           <h6>Контакти</h6>
           <input type="text" placeholder="Введіть ваше ім'я"></input>
           <input type="tel" placeholder="Введіть ваш номер"></input>
